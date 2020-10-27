@@ -3,6 +3,7 @@ import {Subject} from 'rxjs';
 import {Inject, Injectable} from '@angular/core';
 import {Hotkey} from './hotkey.model';
 import { MousetrapInstance } from 'mousetrap';
+import * as Mousetrap from 'mousetrap';
 //import 'mousetrap';
 
 @Injectable()
