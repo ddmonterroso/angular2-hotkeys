@@ -4,7 +4,7 @@ import {HotkeysDirective} from './src/hotkeys.directive';
 import {CheatSheetComponent} from './src/cheatsheet.component';
 import {IHotkeyOptions, HotkeyOptions} from './src/hotkey.options';
 import {HotkeysService} from './src/hotkeys.service';
-
+ import { MousetrapInstance } from 'mousetrap';
 export * from './src/cheatsheet.component';
 export * from './src/hotkey.model';
 export * from './src/hotkey.options';
